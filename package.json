@@ -7,7 +7,7 @@
     "test": "karma start",
     "start": "node server.js"
   },
-  "author": "Toby Henderson",
+  "author": "Toby J Henderson",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.16.2",
