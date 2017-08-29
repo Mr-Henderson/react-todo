@@ -19,15 +19,15 @@ var Person = ['Jim', 21];
 var PersonTwo = ['Emmit', 99];
 //Hi Jim you are 25
 
-function Greet (name, age) {
-  console.log('Hi ' + name + ', you are ' + age);
-};
-Greet(...Person);
-Greet(...PersonTwo);
-
-var names = ['Mike', 'Ben'];
-var final = ['Toby', ...names];
-// console.log(final(...names, final));
-final.forEach(function (Blurb) {
-  console.log('Hi ' + Blurb);
-});
+// function Greet (name, age) {
+//   console.log('Hi ' + name + ', you are ' + age);
+// };
+// Greet(...Person);
+// Greet(...PersonTwo);
+//
+// var names = ['Mike', 'Ben'];
+// var final = ['Toby', ...names];
+// // console.log(final(...names, final));
+// final.forEach(function (Blurb) {
+//   console.log('Hi ' + Blurb);
+// });
