@@ -32,7 +32,7 @@ export var todosReducer = (state = [], action) => {
           createdAt: moment().unix(),
           completedAt: undefined
         }
-      ];      
+      ];
       case 'TOGGLE_TODO':
           return state.map((todo) => {
             if (todo.id === action.id) {
@@ -49,3 +49,5 @@ export var todosReducer = (state = [], action) => {
           return state;
       }
   };
+
+  
