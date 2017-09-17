@@ -1,3 +1,4 @@
 node_modules/
-react_notes
 public/bundle.js
+config/
+react_notes
